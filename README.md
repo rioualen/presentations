@@ -1,2 +1,3 @@
-Bioinfo monthly meeting @ TAGC
-PDF presentation
+# Bioinfo monthly meeting @ TAGC
+
+* PDF presentation
