@@ -7,3 +7,10 @@ PDF presentations
 
 16/02/18
 "Artificial intelligence: how Facebook lost to Google in race to solve the ancient game of Go"
+
+# France Génomique General Assembly
+
+Poster
+
+24/11/2015
+"Development of Snakemake Workflows designed for ChIP-seq analysis - Integration in a Virtual Machine on the IFB cloud"
