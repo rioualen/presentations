@@ -12,5 +12,5 @@ PDF presentations
 
 Poster
 
-24/11/2015
+15/11/25
 "Development of Snakemake Workflows designed for ChIP-seq analysis - Integration in a Virtual Machine on the IFB cloud"
