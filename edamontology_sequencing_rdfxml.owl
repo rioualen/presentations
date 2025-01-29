@@ -66462,7 +66462,13 @@ Removed for release: created_by, creation_date, skos:editorialNote(s)</rdfs:comm
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R8LP46GStTQyj2nYnv0EPI5">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9HmgC7j0y89gUQDfqMbNq2"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sequencing technologies **</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDJhUjeizeH7hClv21zzt9R"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RsAzPxEnNDgzYYmX2pSYpC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seq nologies **</rdfs:label>
     </owl:Class>
     
 
@@ -67090,6 +67096,14 @@ Removed for release: created_by, creation_date, skos:editorialNote(s)</rdfs:comm
     <owl:Class rdf:about="http://webprotege.stanford.edu/RledteMy3u2vQD0soxo8iI">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYPnC9lQIPTmlqOxJ3Rb9K"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA footprinting experiment **</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsAzPxEnNDgzYYmX2pSYpC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RsAzPxEnNDgzYYmX2pSYpC">
+        <rdfs:label>seq tech</rdfs:label>
     </owl:Class>
     
 
